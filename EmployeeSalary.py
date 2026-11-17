@@ -16,7 +16,7 @@ def display_salary(basic_salary, hra, da, gross_salary):
 
 # Main function to run the program
 def main():
-    basic_salary=int(sys.argv[1])
+    basic_salary=float(sys.argv[1])
     basic_salary = float(input("Enter the Basic Salary: "))
     hra, da, gross_salary = calculate_salary(basic_salary)
     display_salary(basic_salary, hra, da, gross_salary)
